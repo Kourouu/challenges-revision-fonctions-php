@@ -3,19 +3,19 @@
 # 2-3 exos pour travailler un peu sur les fonctions.
 
 ## 1 - Faire une fonction "Square" qui prend 1 parametre entier "length". Elle va dessiner un carre de taile length avec des *. 
-Par exemples  :
+### Par exemples  :
 
-Square(1) va dessiner :
+### Square(1) va dessiner :
 
 \*
 
-Square(2) va dessiner :
+### Square(2) va dessiner :
 
 **
 
 **
 
-Square(3) va dessiner :
+### Square(3) va dessiner :
  
  \***
 
@@ -34,7 +34,7 @@ etc...
 
 \***
 
-Square(4) :
+### Square(4) :
 
 \****
 
@@ -53,7 +53,7 @@ Square(4) :
 
 \*
 
-Rectangle(4,5) :
+### Rectangle(4,5) :
 
 
 \****
