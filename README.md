@@ -44,8 +44,8 @@ Square(4) :
 
 \****
 
-3 - Creer la fonction Rectangle pour prendre 2 parametres entier : width et height. Cette fonction va dessiner un rectangle creux de longueur width et de hauteur height.
-Par exemple Rectangle(1, 3) :
+## 3 - Creer la fonction Rectangle pour prendre 2 parametres entier : width et height. Cette fonction va dessiner un rectangle creux de longueur width et de hauteur height.
+### Par exemple Rectangle(1, 3) :
 
 \*
 
