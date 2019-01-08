@@ -8,7 +8,7 @@ echo PHP_EOL;
 
 }
 
-/* Remplacez x par ce que vous souhaitez tester */
-echo rectangle(x);
+/* Remplacez x et y par les entiers que vous souhaitez tester */
+echo rectangle(x,y);
 echo PHP_EOL;
 ?>

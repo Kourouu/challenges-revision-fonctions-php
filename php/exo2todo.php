@@ -8,7 +8,7 @@ echo PHP_EOL;
 
 }
 
-/* Remplacez x par ce que vous souhaitez tester */
+/* Remplacez x par l'entier que vous souhaitez tester */
 echo emptySquare(x);
 echo PHP_EOL;
 ?>
