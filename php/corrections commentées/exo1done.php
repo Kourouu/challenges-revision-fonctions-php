@@ -13,9 +13,4 @@ function square($length) {
 }
 echo square(2);
 echo PHP_EOL;
-
-
-
-echo "EXERCICE 1 PARTIE 2";
-echo PHP_EOL;
 ?>
