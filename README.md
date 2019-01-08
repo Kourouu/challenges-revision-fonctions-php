@@ -75,6 +75,8 @@ Another brick in the wall
 
 ## 5 - Faire une fonction Sum qui prend en paramètre une liste d'entier et qui renvoie (attention je demande de renvoyer et pas d'afficher) la somme des nombres
 
-Par exemple : Sum(1, 3, 4, 7) va renvoyer 23
+### Par exemple : Sum(1, 3, 4, 7) 
+
+va renvoyer 23
 
 Faire une fonction DisplaySum qui prend les mêmes paramètres que Sum et qui affiche la valeur de retour de la fonction Sum.
