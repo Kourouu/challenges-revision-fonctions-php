@@ -1,14 +1,14 @@
 <?php
 
-echo "EXERCICE 1";
+echo "EXERCICE 2";
 echo PHP_EOL;
  /* Votre code ici */
 
-function square($length) {
+ function rectangle() {
 
 }
 
 /* Remplacez x par ce que vous souhaitez tester */
-echo square(x);
+echo rectangle(x);
 echo PHP_EOL;
 ?>

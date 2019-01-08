@@ -1,6 +1,6 @@
 <?php
 
-echo "EXERCICE 1";
+echo "EXERCICE 1 PARITE 1";
 echo PHP_EOL;
  /* Votre code ici */
 
@@ -11,6 +11,11 @@ function square($length) {
         echo $stars;
     }
 }
-echo square(3);
+echo square(2);
+echo PHP_EOL;
+
+
+
+echo "EXERCICE 1 PARTIE 2";
 echo PHP_EOL;
 ?>
