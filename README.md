@@ -77,6 +77,6 @@ Another brick in the wall
 
 ### Par exemple : Sum(1, 3, 4, 7) 
 
-va renvoyer 23
+va renvoyer 15
 
 Faire une fonction DisplaySum qui prend les mêmes paramètres que Sum et qui affiche la valeur de retour de la fonction Sum.
