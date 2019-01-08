@@ -1,8 +1,7 @@
 <?php
 
-echo "EXERCICE 1 PARITE 1";
+echo "EXERCICE 1";
 echo PHP_EOL;
- /* Votre code ici */
 
 function square($length) {
     /* on définit la valeur $stars dont la valeur sera une chaîne de caractère correspondant au caractère * répété $length fois */
@@ -14,6 +13,6 @@ function square($length) {
     }
 }
 /* on test la valeur 2 */
-echo square(2);
+echo square(1);
 echo PHP_EOL;
 ?>

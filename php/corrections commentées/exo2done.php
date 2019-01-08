@@ -11,22 +11,28 @@ function emptySquare($length) {
     for ($i=0; $i < $length; $i++) {
         /* on crée une condition pour déterminer ce qui sera affiché dans chaque ligne */
         /* à la 1ère et à la dernière ligne, on affiche le caractère * $length fois */
-        if ($i == 1 OR $i == $length) {
+        if ($i == 0 OR $i == $length-1) {
             echo PHP_EOL;
             echo $stars;
         }
         /* dans les lignes intermédiaires, on affiche une concaténation */
-        /* $empty est le nombre d'espaces que nous affichons entre les caractères * de début et fin de ligne */
         else {
+/* en contrôlant que s'affiche une chaîne de caractère contenant un seul caractère si l'argument est 1 */
+            if ($length == 1) {
+                echo '*';
+            }
+            else {
+/* $empty est le nombre d'espaces que nous affichons entre les caractères * de début et fin de ligne */
+/* le if de la ligne 21 permet de s'assurer que $empty n'est pas négatif */
             $empty = str_repeat(' ',$length-2);
             echo PHP_EOL;
             echo '*' . $empty . '*';
+            }
         }
     }
 }
-
-/* on teste la valeur 4 */
-echo emptySquare(4);
+/* on teste la valeur 34 */
+echo emptySquare(34);
 echo PHP_EOL;
 
 ?>

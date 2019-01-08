@@ -2,7 +2,6 @@
 
 echo "EXERCICE 3";
 echo PHP_EOL;
- /* Votre code ici */
 
 /* on crée la fonction*/
  function rectangle($width, $length) {
