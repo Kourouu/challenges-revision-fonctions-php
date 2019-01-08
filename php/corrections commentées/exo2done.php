@@ -8,7 +8,7 @@ function emptySquare($length) {
     /* on attribue à la variable $stars le caractère * répété plusieurs fois, en fonction de l'argument que l'on teste*/
     $stars = str_repeat('*',$length);
     /* on fait une boucle qui va créer un nombre de lignes égal à l'argument */
-    for ($i=1; $i <= $length; $i++) {
+    for ($i=0; $i < $length; $i++) {
         /* on crée une condition pour déterminer ce qui sera affiché dans chaque ligne */
         /* à la 1ère et à la dernière ligne, on affiche le caractère * $length fois */
         if ($i == 1 OR $i == $length) {
