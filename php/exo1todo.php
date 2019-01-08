@@ -5,12 +5,10 @@ echo PHP_EOL;
  /* Votre code ici */
 
 function square($length) {
-    $stars = str_repeat('*',$length);
-    for ($i=1; $i <= $length; $i++) {
-        echo PHP_EOL;
-        echo $stars;
-    }
+
 }
-echo square(3);
+
+/* Ligne 16, remplacez x par la valeur que vous souhaitez tester */
+echo square(x);
 echo PHP_EOL;
 ?>
